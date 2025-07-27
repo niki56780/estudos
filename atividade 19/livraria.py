@@ -1,4 +1,4 @@
-def contatos():
+def livros():
     livraria = {}
     while True:
         autor = str(input("digite o nome do autor: "))
@@ -15,5 +15,5 @@ def contatos():
     if buscar_autor in livraria:
         print("o ",buscar_autor,"foi encontrado na lista com os seguintes livros ",livraria[buscar_autor])
     else:
-        print("nao foi encontrado tal contato na agenda")
-contatos()
+        print("nao foi encontrado tal autor na lista")
+livros()
